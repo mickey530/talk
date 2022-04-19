@@ -11,15 +11,26 @@
     font-style: normal;
 }  
 
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
   html, body {height:100%;}
   body {
     font-family: 'CookieRun-Regular';
+    background-color: white;
+    color: black;
   }
   h2, .title {
       font-family: 'CookieRunOTF-Bold';
   }
   a{text-align: center}
   p{margin: 0px;}
+  .sm_font{
+    font-size: 12px;
+  }
   .tag{font-size: 8px; color:grey;}
   .row{
     --bs-gutter-x: 0px;
@@ -72,6 +83,9 @@ details > summary::-webkit-details-marker {
 }
 summary > p {
     text-align: start;
+}
+.card {
+    font-size: 12px;
 }
 
 footer {
