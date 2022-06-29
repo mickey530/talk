@@ -53,7 +53,7 @@
 * 프레임워크 : Spring, MyBatis, JDBC
 
 ## 3. DB 설계
-<img src='img/DB 구조 최종.png'>
+<img src='img/화면단/DB 구조 최종.png'>
 
 > 갤러리의 경우 DB 파티셔닝을 고려해 각 갤러리마다 별도의 테이블을 사용하여 관리
 
@@ -144,10 +144,10 @@
 
 ### 뉴스피드 - AD
 
-<kbd><img src='img/화면단/22.jpg' width='150px'></kbd>
-<kbd><img src='img/화면단/23.PNG' width='150px'></kbd>
-<kbd><img src='img/화면단/20.JPG' width='450px'></kbd>
-<kbd><img src='img/화면단/21.JPG' width='200px'></kbd>
+<kbd><img src='img/화면단/광고.jpg' width='150px'></kbd>
+<kbd><img src='img/화면단/결제.PNG' width='150px'></kbd>
+<kbd><img src='img/화면단/결제모듈.JPG' width='450px'></kbd>
+<kbd><img src='img/화면단/결제완료.JPG' width='200px'></kbd>
 
 > 로그인 아이디가 멤버쉽 권한이 없는 경우 뉴스피드 중간마다 노출, 클릭 시 디테일 페이지로 이동
 
@@ -157,8 +157,8 @@
 
 ### 포스트 - 디테일 페이지
 
-<kbd><img src='img/화면단/3.JPG' width='200px'></kbd>
-<kbd><img src='img/화면단/4.JPG' width='200px'></kbd>
+<kbd><img src='img/화면단/포스트.JPG' width='200px'></kbd>
+<kbd><img src='img/화면단/댓글.JPG' width='200px'></kbd>
 
 > 로그인 아이디와 포스트번호/댓글번호를 파라미터로 넘겨 DB 조회 - 좋아요 누른 내역이 있는 경우 CSS 추가
 
@@ -176,8 +176,8 @@
 
 ### 포스트 - 댓글
 
-<kbd><img src='img/화면단/6.PNG' width='200px'></kbd>
-<kbd><img src='img/화면단/7.PNG' width='200px'></kbd>
+<kbd><img src='img/화면단/모달창.PNG' width='200px'></kbd>
+<kbd><img src='img/화면단/댓글수정.PNG' width='200px'></kbd>
 
 > 댓글 클릭 시 모달창 노출 (이벤트 위임, 터치영역 고려 하단 배치)
 
@@ -193,10 +193,10 @@
 
 ### 신고
 
-<kbd><img src='img/화면단/8.PNG' width='180px'></kbd>
+<kbd><img src='img/화면단/신고게시글.PNG' width='180px'></kbd>
 <kbd><img src='img/화면단/신고.png' width='180px'></kbd>
-<kbd><img src='img/화면단/12.PNG' width='180px'></kbd>
-<kbd><img src='img/화면단/11.PNG' width='180px'></kbd>
+<kbd><img src='img/화면단/신고목록.PNG' width='180px'></kbd>
+<kbd><img src='img/화면단/신고사유.PNG' width='180px'></kbd>
 
 > 신고버튼 클릭 시 신고 폼으로 이동
 
@@ -217,7 +217,7 @@
 ### 커뮤니티(갤러리)
 
 <kbd><img src='img/화면단/갤러리.PNG' width='180px'></kbd>
-<kbd><img src='img/화면단/13.PNG' width='180px'></kbd>
+<kbd><img src='img/화면단/갤러리생성.PNG' width='180px'></kbd>
 <kbd><img src='img/화면단/갤러리 디테일.PNG' width='180px'></kbd>
 <kbd><img src='img/화면단/갤러리 채팅.PNG' width='180px'></kbd>
 
