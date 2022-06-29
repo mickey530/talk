@@ -72,17 +72,17 @@
 
 ### 로그인 / 회원가입
 
-<kbd><img src='img/화면단/19.jpg' width='200px'></kbd>
-<kbd><img src='img/화면단/18.jpg' width='200px'></kbd>
+<kbd><img src='img/화면단/로그인.jpg' width='200px'></kbd>
+<kbd><img src='img/화면단/회원가입.jpg' width='200px'></kbd>
 
 > 스프링시큐리티를 이용하여 로그인시 세션 발급, remember me 체크시 쿠키 발급.
 
 <br>
 
 ### 유저룸
-<kbd><img src='img/화면단/unknown (1).png' width='200px'></kbd>
-<kbd><img src='img/화면단/unknown (3).png' width='200px'></kbd>
-<kbd><img src='img/화면단/unknown (2).png' width='200px'></kbd>
+<kbd><img src='img/화면단/마이룸.png' width='200px'></kbd>
+<kbd><img src='img/화면단/방명록.png' width='200px'></kbd>
+<kbd><img src='img/화면단/전화.png' width='200px'></kbd>
 
 > @PathVariable로 유저 아이디를 받아서 해당 유저가 작성한 포스트 썸네일 노출
 
@@ -102,7 +102,7 @@
 
 ### 친구 (팔로잉, 팔로워)
 
-<kbd><img src='img/화면단/5.PNG' width='200px'></kbd>
+<kbd><img src='img/화면단/팔로우.PNG' width='200px'></kbd>
 
 > 팔로우 유저 / 팔로잉 유저를 볼 수 있고 버튼 클릭을 통해 rest 방식으로 팔로잉 취소, 즐겨찾기 추가
 
@@ -112,8 +112,8 @@
 
 ### 쪽지
 
-<kbd><img src='img/화면단/17.PNG' width='200px'></kbd>
-<kbd><img src='img/화면단/16.PNG' width='200px'></kbd>
+<kbd><img src='img/화면단/쪽지리스트.PNG' width='200px'></kbd>
+<kbd><img src='img/화면단/쪽지디테일.PNG' width='200px'></kbd>
 
 > 로그인 유저와 쪽지를 주고받은 이력이 있는 유저 목록
 
@@ -129,8 +129,8 @@
 
 ### 뉴스피드 
 
-<kbd><img src='img/화면단/1.JPG' width='200px'></kbd>
-<kbd><img src='img/화면단/2.JPG' width='200px'></kbd>
+<kbd><img src='img/화면단/뉴스피드(전).JPG' width='200px'></kbd>
+<kbd><img src='img/화면단/뉴스피드(후).JPG' width='200px'></kbd>
 
 > 페이징처리, 인피니티 스크롤을 적용하여 스크롤이 바닥에 닿을 때 마다 rest 방식으로 게시글 12개씩 추가 로드
 
