@@ -157,7 +157,7 @@
 
 ### 포스팅
 
-<kbd><img src='img/화면단/포스트 작성.jpg' width='150px'></kbd>
+<kbd><img src='img/화면단/포스트 작성.PNG' width='150px'></kbd>
 
 > 제목, 내용, 아이디를 파라미터로 받아 포스팅
 
